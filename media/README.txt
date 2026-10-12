@@ -1,0 +1,1 @@
+Upload replacement product photos and banners here through GitHub or Pages CMS. Use /media/filename.jpg as the image path in the CMS.
