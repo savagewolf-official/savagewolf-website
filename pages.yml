@@ -1,0 +1,87 @@
+media:
+  input: media
+  output: /media
+content:
+  - name: website
+    label: Website Settings
+    type: file
+    path: site.json
+    format: json
+    fields:
+      - name: entrance_title
+        label: "Entrance headline"
+        type: string
+      - name: entrance_description
+        label: "Entrance description"
+        type: text
+      - name: hero_eyebrow
+        label: "Hero eyebrow"
+        type: string
+      - name: hero_title
+        label: "Hero title"
+        type: string
+      - name: hero_description
+        label: "Hero description"
+        type: text
+      - name: hero_image
+        label: "Hero image URL or /media/path"
+        type: string
+      - name: collection_eyebrow
+        label: "Collection eyebrow"
+        type: string
+      - name: collection_title
+        label: "Collection heading"
+        type: string
+      - name: collection_note
+        label: "Collection disclaimer"
+        type: text
+      - name: twitch_eyebrow
+        label: "Twitch eyebrow"
+        type: string
+      - name: twitch_title
+        label: "Twitch heading"
+        type: string
+      - name: twitch_description
+        label: "Twitch description"
+        type: text
+      - name: twitch_url
+        label: "Twitch link"
+        type: string
+      - name: announcement
+        label: "Announcement bar"
+        type: string
+      - name: music_enabled
+        label: "Music enabled"
+        type: boolean
+      - name: music_file
+        label: "Soundtrack path"
+        type: string
+      - name: music_volume
+        label: "Music volume (0–100)"
+        type: number
+  - name: merchandise
+    label: Merchandise Showcase
+    type: file
+    path: products.json
+    format: json
+    fields:
+      - name: products
+        label: Products (keep the original eight in order)
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: Product name
+            type: string
+          - name: category
+            label: Category
+            type: string
+          - name: price_preview
+            label: Display price (concept only)
+            type: string
+          - name: image
+            label: Replacement image URL or /media/path
+            type: string
+          - name: visible
+            label: Show product
+            type: boolean

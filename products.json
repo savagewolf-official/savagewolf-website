@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "name": "Signature Hoodies",
+      "category": "Apparel",
+      "price_preview": "Concept price $54.99",
+      "image": "",
+      "visible": true
+    },
+    {
+      "name": "Fitted Hat #5",
+      "category": "Headwear",
+      "price_preview": "Concept price $39.99",
+      "image": "",
+      "visible": true
+    },
+    {
+      "name": "XXL Gaming Desk Pad",
+      "category": "Gaming Setup",
+      "price_preview": "Concept price $34.99",
+      "image": "",
+      "visible": true
+    },
+    {
+      "name": "Wolf Tumblers",
+      "category": "Drinkware",
+      "price_preview": "Concept price $34.99",
+      "image": "",
+      "visible": true
+    },
+    {
+      "name": "Wolf Wall Tapestry",
+      "category": "Room Decor",
+      "price_preview": "Concept price $49.99",
+      "image": "",
+      "visible": true
+    },
+    {
+      "name": "Collectible Patches",
+      "category": "Accessories",
+      "price_preview": "Concept price $14.99",
+      "image": "",
+      "visible": true
+    },
+    {
+      "name": "Graphic T-Shirts",
+      "category": "Apparel",
+      "price_preview": "Concept price $29.99",
+      "image": "",
+      "visible": true
+    },
+    {
+      "name": "Embroidered Jacket",
+      "category": "Apparel",
+      "price_preview": "Concept price $69.99",
+      "image": "",
+      "visible": true
+    }
+  ]
+}
